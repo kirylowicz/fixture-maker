@@ -1,7 +1,11 @@
-oclif-hello-world
+Commandline Fixture Maker
 =================
 
-oclif example Hello World CLI
+Simple tool to create data fixture files for development work. It's meant to use JS SDKs from the API providers, returning the same objects that will be used in your app. You can choose to write the data to a file or output or copy it to clipboard and paste directly into your tests/stories/presentational components.
+
+Currently suports
+- Contentful
+- Shopify
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
